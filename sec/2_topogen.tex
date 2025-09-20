@@ -1,6 +1,15 @@
 \section{TopoGen Dataset}
 \label{sec:topogen}
 
+\begin{figure*}[!t]
+  \centering
+  \includegraphics[width=1.0\linewidth]{figs/topogen/samples_overview.png}
+
+  \label{fig:topogen-samples}
+  \caption{\textbf{TopoGen samples.} Despite the fact that each sample is generated from a rather small family of shapes, both the topology preserving placement and augmentations allow for a rich variety of shapes, while ensuring topological consistency.}
+  \label{fig:short}
+\end{figure*}
+
 Assessing how models understand the topology of 3D shapes, in particular through probing, requires data labeled with topological information and control over the distribution of the labels. However such dataset, specifically designed with a focus on the structure and not the semantics, hasn't been developed yet. Hence we introduce TopoGen, a scalable dataset of 3D synthetic shapes with accurate and well balanced topological labels. The samples in this dataset are labeled by number of connected components and genus.
 
 \subsection{Existing datasets}
@@ -32,14 +41,171 @@ Where $V, E, F$ are the number of vertices, edges and faces respectively, $g$ is
 Second, self-intersections may introduce undesired topological structures, leading to inaccurate labels. To overcome these issues, remeshing procedures such as Manifold \cite{manifold} and ManifoldPlus \cite{manifoldplus} were proposed, transforming arbitrary meshes into manifold and watertight representations. While Manifold provides robustness, it often over smooths the input geometry, reducing fine details. ManifoldPlus improves accuracy but introduces artifacts (see Fig...) (*+example with flower pot*) in challenging cases, leading to inconsistencies in the resulting topology. More recent approaches rely on intermediate representations such as signed or unsigned distance fields. Methods like Dual Octree Graph Networks (DOGN) \cite{dogn}, and the remeshing procedure in CLAY \cite{clay} achieve more stable and reliable results, but at the cost of significantly higher computational complexity. Finally, some shapes in Thingi10K and ABC also exhibit highly uneven geometric complexity, which can negatively impact model evaluation. To ensure that results primarily reflect the topology of the shapes, a certain level of uniformity in geometric complexity across the dataset is necessary. However, quantifying geometric difficulty is challenging, as no straightforward metric exists to assess it. Moreover, since the shapes were not generated under a controlled process, it is not possible to design a general heuristic to filter out geometrically challenging samples consistently.
 
 
-% Finally, the EuLearn dataset (Figure \ref{fig:eulearn-samples}), intended to supervise models on inferring the genus from point clouds, offers interesting perspectives to train on synthetic data. The dataset is generated from Fourier curves with additional procedures to create knots, which in turn produce surfaces of different genera and some topological diversity. Despite its scalability in terms of the number of samples, EuLearn only covers genera between 0 and 10. Moreover, the generation rules lead to very limited variation within each genus: samples of the same class tend to look too similar, which results in strong overfitting. @fig:eulearn_umap_aug and @tab:eulearn_overfit highlight this issue at the transformer features level while @fig:eulearn_samples and @fig:eulearn_acc_angle confirm this issue at the sample level. In particular, @fig:eulearn_acc_angle exhibits a strong correlation between shapes genera and their canonical orientation. Indeed, a simple nearest neighbors classifier with Chamfer distance achieves perfect accuracy on the test set if it's fit on the training set as is. Beyond this rotation-genus correlation, @fig:eulearn_face_to_vertex_ratio further shows that the geometric complexity (as measured by the face-to-vertex ratio) is strongly correlated with the genus. This correlation makes it difficult to disentangle whether classification performance is driven by topological information or by correlated geometric cues. Overall, these limitations make EuLearn unsuitable for robustly probing structural understanding in 3D shape encoders.
+Finally, the EuLearn dataset (Figure \ref{fig:eulearn-samples}), intended to supervise models on inferring the genus from point clouds, offers interesting perspectives to train on synthetic data. The dataset is generated from Fourier curves with additional procedures to create knots, which in turn produce surfaces of different genera and some topological diversity. Despite its scalability in terms of the number of samples, EuLearn only covers genera between 0 and 10. Moreover, the generation rules lead to very limited variation within each genus: samples of the same class tend to look too similar, which results in strong overfitting. Figure \ref{fig:eulearn-umap-comparison} and \ref{tab:eulearn-overfit} highlight this issue at the transformer features level while Figures \ref{fig:eulearn-samples} and \ref{fig:eulearn-acc-angle} confirm this issue at the sample level. In particular, \ref{fig:eulearn-acc-angle} exhibits a strong correlation between shapes genera and their canonical orientation. Indeed, a simple nearest neighbors classifier with Chamfer distance achieves perfect accuracy on the test set if it's fit on the training set as is. Beyond this rotation-genus correlation. This correlation makes it difficult to disentangle whether classification performance is driven by topological information or by correlated geometric cues. Overall, these limitations make EuLearn unsuitable for robustly probing structural understanding in 3D shape encoders.
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=\linewidth]{figs/topogen/eulearn_samples.pdf}
+  \includegraphics[width=\linewidth]{figs/eulearn/dataset_samples.pdf}
    \caption{\textbf{Samples from the EuLearn dataset across different genera.} As the genus increases, shapes become geometrically more complex. This trend highlights a confounding factor in the dataset: geometric complexity grows together with genus. As a result, classification performance may be driven not only by topological information but also by correlated geometric cues.}
    \label{fig:eulearn-samples}
 \end{figure}
+
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figs/eulearn/accuracy_vs_angle.pdf}
+   \caption{\textbf{Classification accuracy vs. rotation range for KNN.} Training sets contain point clouds rotated within specified angular ranges around the z-axis. Perfect accuracy at 0rad rotation indicates exploitation of orientation-dependent features rather than robust geometric understanding. Furthermore, the dramatic drop correlated with increasing rotation range suggest a strong bias in the dataset. Ideally, we would expect the accuracy to be rather stable across different rotations. \textit{Note:} Results are cross-validated with 5 folds.}
+   \label{fig:eulearn-acc-angle}
+\end{figure}
+
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figs/eulearn/umap_comparison_original_rotated.pdf}
+   \caption{\textbf{UMAP of CLS-token embeddings from Point-BERT (EuLearn dataset).} Points are colored by genus. *Left:* embeddings computed from the original provided shapes (original orientations). Samples of the same genus form tight, well-separated clusters. *Right:* the same samples, but each randomly rotated before being input to Point-BERT. Genus labels are mixed and the clusters largely disappear. However, the genus is a topological invariant. It should not be altered by any rigid transformation. If the encoder actually captured topology, we could expect the clusters to remain visible, even after rotation. Therefore, the observed genus clustering is driven by a correlation between genus and global pose / geometric complexity in EuLearn, not by robust topological features. Hence using these embeddings to probe genus is unreliable (classifiers trained on them risk exploiting pose correlation rather than true genus). Even though this doesn't strictly assess that Point-BERT doesn't capture topology, it shows at least that much of the information carried by the embeddings is not related to topology. Table ... further highlights the overfitting issue when training a linear probe on EuLearn.}
+   \label{fig:eulearn-umap-comparison}
+\end{figure}
+
+
+\begin{figure}[t]
+\centering
+\begin{tabular}{c c c c}
+\toprule
+\textbf{Training set} & \textbf{Test set} & \textbf{Training Acc.} & \textbf{Test Acc.} \\
+\bottomrule
+\multirow{2}{*}{\includegraphics[height=1em]{figs/utils/unrotated.pdf}} 
+  & \includegraphics[height=1em]{figs/utils/unrotated.pdf} 
+  & \multirow{2}{*}{99.9} 
+  & $96.4_{\textcolor{red}{(-0.5)}}$ \\
+& \includegraphics[height=1em]{figs/utils/rotated.pdf} 
+  &  
+  & $16.3_{\textcolor{red}{(-83.6)}}$ \\
+\midrule
+\multirow{2}{*}{\includegraphics[height=1em]{figs/utils/rotated.pdf}} 
+  & \includegraphics[height=1em]{figs/utils/rotated.pdf} 
+  & \multirow{2}{*}{77.8} 
+  & $50.1_{\textcolor{red}{(-27.7)}}$ \\
+& \includegraphics[height=1em]{figs/utils/unrotated.pdf} 
+  &  
+  & $45.9_{\textcolor{red}{(-31.9)}}$ \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Probing results on features from canonical vs. randomly rotated EuLearn samples.} 
+We train linear probes on two feature sets (CLS embeddings of the last block of the Point-BERT transformer): 
+(i) shapes in canonical orientation (\includegraphics[height=1em,valign=c]{figs/utils/unrotated.pdf}), and 
+(ii) shapes with random 3D rotations (\includegraphics[height=1em,valign=c]{figs/utils/rotated.pdf}). 
+Each probe is evaluated on test features from both canonical and rotated shapes. 
+Probes trained on canonical features reach near-perfect accuracy on canonical test data but collapse under rotations, revealing overfitting to orientation. 
+Probes trained on rotated features avoid this overfitting but show consistently poor generalization, with accuracy dropping by over 20\% on both canonical and rotated test sets. 
+This indicates that the dataset is not suitable for robust probing of structural information.}
+\label{tab:eulearn-overfit}
+\end{figure}
+
+\subsection{Method}
+
+
+Since TopoGen is made of synthetic shapes, two critical challenges must be addressed to ensure that the results obtained from this dataset are relevant. 1) Foundation models are pretrained on real shapes. Therefore, learned features reflect the distribution of real world geometry and semantics. Synthetic data, however, introduce patterns and biases that don't exist in real data, making them fall out-of-distribution. 2) Another common pitfall of synthetic datasets (cf. EuLearn) is the lack of variability, making evluation tasks such as probing, trivial. In practice, the first challenge is overcome by the fact that foundation models are pre-trained on datasets (e.g ShapeNet, Objaverse, etc.) that are large enough for synthetic shapes not to fall out-of-distribution. This is experimentaly validated in Figure (+ figure with umaps). To adress the second challenge, we developed a set of rules and augmentation techniques to ensure that the generated shapes are both diverse and topologically accurate.
+
+Below we derive these rules used to generate TopoGen, and more importantly, how the latter allow to maintain this variability across samples while scaling their number up to $10^5$ shapes.
+
+\subsubsection{Labels Distribution}
+\label{sssec:labels-distribution}
+
+A central design choice in TopoGen is to ensure balanced topological supervision across the dataset. To this end, both the genus and the number of connected components are sampled such that their marginal distributions are approximately uniform. This prevents any single topological class from dominating and guarantees that models trained on the dataset are exposed to the full spectrum of topological structures. We bring this guarantee over marginal distributions by first sampling the labels before actually generating any mesh. @sec:topogen-complements formally describes how the labels are sampled and further details the properties of the dataset we used for all our experiments
+
+Each sample is further composed of multiple meshes selected from a predefined family of template shapes. This choice introduces large geometric variability while maintaining strict control over label balance. As a result, the dataset couples statistical uniformity in labels with broad diversity in shape realizations. Nevertheless, by limiting ourselves to certain families of geometric shapes, we avoided falling into the pitfall of geometric complexity mentioned earlier. 
+
+\subsubsection{Sample-Level Properties}
+\label{sssec:sample-level-properties}
+
+At the level of individual samples, the generation process begins by selecting the global genus and number of connected components. These values are then distributed across the meshes composing the sample. For example, a sample may include one mesh of genus one, several genus-zero meshes, or even higher-genus meshes, depending on the chosen configuration.
+
+Each mesh is then instantiated from a specific parametric family of shapes:
+\begin{itemize}
+  \item \textit{Genus 0:} Superellipsoids and cones
+  \item \textit{Genus 1:} Supertoroids and cones
+  \item \textit{Genus $\geq 2$:} K-tori
+\end{itemize}
+
+\textbf{Superquadrics.} Superellipsoids  (resp. toroids) are part of a wider family of parametric shapes called superquadrics. They were introduced by Barr et al. \cite{superquadrics} in 1981 and are widely used in computer graphics for their ability to represent a large range of shapes with a small number of compact parameters. Superquadrics have recently regained attention in 3D scene understanding, notably in SuperDec \cite{superdec}, because of their expressiveness and their ability to approximate complex structures by composition. Their implicit equation is given by:
+
+\begin{equation}
+\left( \left| \frac{x}{s_x} \right|^{\tfrac{2}{\epsilon_2}}
+     + \left| \frac{y}{s_y} \right|^{\tfrac{2}{\epsilon_2}} \right)^{\tfrac{\epsilon_2}{\epsilon_1}}
++ \left| \frac{z}{s_z} \right|^{\tfrac{2}{\epsilon_1}}
+= 1
+\end{equation}
+
+where $(s_x, s_y, s_z) > 0$ are scale factors along the $x, y, z$ axes respectively, and $(\epsilon_1, \epsilon_2) > 0$ are shape exponents that modulate the surface's roundness (resp. sharpness). Sampling these parameters within predefined ranges allows to efficiently sample a variety of shapes while maintaining control over their topological properties.
+
+\subsubsection{Mesh Generation}
+\label{sssec:mesh-generation}
+
+One key challenge is to be able to generate a large amount of samples (up to $10^5$) in a reasonable amount of time. This order of magnitude is motivated the results of Point-MAE-Zero \cite{pmaezero}. Accurate representations were obtained with a pretraining set containing around 150K samples. While we further use TopoGen essentially for evaluation/probing tasks, we want to preserve the possibility of scaling to pretraining regimes where data requirements are significantly higher. We therefore restrict as much as possible the use of computation intensive operations. k-tori aside, every mesh is generated either with its parametric expression when available, or with simple rules.
+
+\textbf{Cones.} \dots
+
+\textbf{Superquadrics.} Meshes corresponding to super ellipsoids and super toroids are generated directly from their parametric forms. The procedure consists of two steps: 1) generate a base template mesh (a sphere for ellipsoids, a torus for toroids) where vertices are expressed in spherical (resp. toroidal) coordinates, and 2) deform it according to the superquadric equations. This construction is lightweight, parallelizable, and supports fast large-scale dataset generation. The parametric equations we use in practice are as follows:
+\begin{equation}
+\text{Ellipsoid} \quad
+\begin{cases}
+x(u,v) &= s_x \, C_{\epsilon_1}(v) \, C_{\epsilon_2}(u) \\
+y(u,v) &= s_y \, S_{\epsilon_1}(v) \, S_{\epsilon_2}(u) \\
+z(u,v) &= s_z \, S_{\epsilon_1}(v)
+\end{cases}
+\end{equation}
+
+\begin{equation}
+\text{Toroid} \quad
+\begin{cases}
+x(u,v) &= s_x \, \bigl(R + C_{\epsilon_1}(v)\bigr) \, C_{\epsilon_2}(u) \\
+y(u,v) &= s_y \, \bigl(R + S_{\epsilon_1}(v)\bigr) \, S_{\epsilon_2}(u) \\
+z(u,v) &= s_z \, S_{\epsilon_1}(v)
+\end{cases}
+\end{equation}
+
+where $u,v \in [-\pi, \pi]$ are the vertex coordinates of the template mesh is spherical (resp. toroidal) coordinates and:
+
+\begin{equation}
+\begin{aligned}
+C_\epsilon(u) &= \operatorname{sign}(\cos(u)) \, |\cos(u)|^\epsilon \\
+S_\epsilon(u) &= \operatorname{sign}(\sin(u)) \, |\sin(u)|^\epsilon
+\end{aligned}
+\end{equation}
+
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figs/topogen/toroids_overview.png}
+  \caption{Different supertoroids obtained for fixed values of $a_i, i \in \{1, 2, 3\}$ and increasing values of $\epsilon_1$ (left to right) and $\epsilon_2$ (bottom to top). As mentioned in TO ADD, using these shapes for $k$-tori ($k \geq 2$) is challenging because they may not preserve the genus, for instance if some parts are too thin or sharp.}
+  \label{fig:toroids-overview}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figs/topogen/ellipsoids_overview.png}
+   \caption{Different superellipsoids obtained for fixed values of $a_i, i \in \{1, 2, 3\}$ and increasing values of $\epsilon_1$ (left to right) and $\epsilon_2$ (bottom to top).}
+   \label{fig:ellipsoids-overview}
+\end{figure}
+
+\textbf{$K$-tori.} In the case of higher-genus meshes, there are no closed-form parametric equations. Instead, we leverage the implicit formulation of tori. A $k$-torus is generated by (1) evenly distributing tori on a circle, (2) blending their signed distance functions (SDF) through a smooth union operator, and finally (3) extracting the mesh via marching cubes with a grid-size. However, this process is more computationally intensive as it requires applying marching cubes the discretized SDF, whose complexity scales in $O(N^3)$ where $N$ is the grid size. And since we seek to have high quality meshes to preserve fine-grained details (here holes), we use a higher grid resolution.
+
+To smoothly blend the SDF of each torus generated independently, we use the \textit{smooth minimum} operator:
+
+\begin{equation}
+\operatorname{softmin}_k(s_1, s_2, \dots, s_n) 
+= -\frac{1}{k} \log \left( \sum_{i=1}^n e^{-k s_i} \right)
+\end{equation}
+
+Where $(s_1, s_2, \dots, s_n) \in \mathbb{R}^{(N^3)}$ are the SDF of individual tori and $k$ is a hyperparameter controlling the smoothness of the blending. This operator is applied voxel wise. In other words, each voxel of the blended SDF is assigned with the smooth minimum value of the individual SDF.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figs/topogen/ktori_overview.png}
+   \caption{\textbf{Degrees of freedom allowed on k-tori.}}
+   \label{fig:ktori-overview}
+\end{figure}
+
 
 % All text must be in a two-column format.
 % The total allowable size of the text area is $6\frac78$ inches (17.46 cm) wide by $8\frac78$ inches (22.54 cm) high.
