@@ -1,0 +1,1947 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="819.485544pt" height="554.341562pt" viewBox="0 0 819.485544 554.341562" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2025-09-11T14:39:23.959624</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.5, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 554.341562 
+L 819.485544 554.341562 
+L 819.485544 0 
+L 0 0 
+L 0 554.341562 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 67.764063 492.7525 
+L 819.485544 492.7525 
+L 819.485544 0 
+L 67.764063 0 
+L 67.764063 492.7525 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mafdf3a82c3" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mafdf3a82c3" x="101.933221" y="492.7525" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- $\mathdefault{10^{0}}$ -->
+      <g transform="translate(88.933221 514.89) scale(0.2 -0.2)">
+       <defs>
+        <path id="GentiumPlus-31" d="M 531 0 
+L 531 166 
+Q 1022 225 1198 303 
+Q 1375 381 1375 447 
+L 1375 2938 
+Q 1375 3063 1365 3133 
+Q 1356 3203 1319 3244 
+Q 1281 3284 1097 3286 
+Q 913 3288 500 3200 
+L 434 3359 
+Q 609 3409 861 3506 
+Q 1113 3603 1352 3709 
+Q 1591 3816 1728 3891 
+L 1844 3781 
+L 1844 447 
+Q 1844 388 1998 306 
+Q 2153 225 2625 166 
+L 2625 0 
+L 531 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="GentiumPlus-30" d="M 2766 1881 
+Q 2766 1344 2600 895 
+Q 2434 447 2136 176 
+Q 1838 -94 1441 -94 
+Q 1044 -94 776 176 
+Q 509 447 373 895 
+Q 238 1344 238 1881 
+Q 238 2419 405 2869 
+Q 572 3319 870 3589 
+Q 1169 3859 1563 3859 
+Q 1959 3859 2226 3592 
+Q 2494 3325 2630 2875 
+Q 2766 2425 2766 1881 
+z
+M 2253 1766 
+Q 2253 2338 2137 2723 
+Q 2022 3109 1837 3304 
+Q 1653 3500 1441 3500 
+Q 1119 3500 934 3150 
+Q 750 2800 750 2016 
+Q 750 1159 983 712 
+Q 1216 266 1563 266 
+Q 1888 266 2070 620 
+Q 2253 975 2253 1766 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#GentiumPlus-31" transform="translate(0 0.007812)"/>
+       <use xlink:href="#GentiumPlus-30" transform="translate(46.923828 0.007812)"/>
+       <use xlink:href="#GentiumPlus-30" transform="translate(94.642266 31.792187) scale(0.7)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mafdf3a82c3" x="291.903119" y="492.7525" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- $\mathdefault{10^{1}}$ -->
+      <g transform="translate(278.903119 514.89) scale(0.2 -0.2)">
+       <use xlink:href="#GentiumPlus-31" transform="translate(0 0.657813)"/>
+       <use xlink:href="#GentiumPlus-30" transform="translate(46.923828 0.657813)"/>
+       <use xlink:href="#GentiumPlus-31" transform="translate(94.642266 32.442188) scale(0.7)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mafdf3a82c3" x="481.873018" y="492.7525" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- $\mathdefault{10^{2}}$ -->
+      <g transform="translate(468.873018 514.89) scale(0.2 -0.2)">
+       <defs>
+        <path id="GentiumPlus-32" d="M 2566 0 
+L 397 0 
+L 306 231 
+Q 863 878 1213 1309 
+Q 1563 1741 1753 2027 
+Q 1944 2313 2016 2511 
+Q 2088 2709 2088 2888 
+Q 2088 3175 1944 3376 
+Q 1800 3578 1459 3578 
+Q 1291 3578 1158 3475 
+Q 1025 3372 950 3219 
+Q 875 3066 875 2919 
+Q 769 2859 694 2820 
+Q 619 2781 475 2766 
+L 391 2859 
+Q 391 3022 498 3197 
+Q 606 3372 790 3522 
+Q 975 3672 1203 3765 
+Q 1431 3859 1672 3859 
+Q 2050 3859 2311 3645 
+Q 2572 3431 2572 2975 
+Q 2572 2766 2480 2544 
+Q 2388 2322 2183 2033 
+Q 1978 1744 1645 1342 
+Q 1313 941 831 378 
+L 2138 378 
+Q 2244 378 2306 462 
+Q 2369 547 2401 656 
+Q 2434 766 2445 850 
+Q 2456 934 2456 934 
+L 2613 897 
+L 2566 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#GentiumPlus-31" transform="translate(0 0.007812)"/>
+       <use xlink:href="#GentiumPlus-30" transform="translate(46.923828 0.007812)"/>
+       <use xlink:href="#GentiumPlus-32" transform="translate(94.642266 31.792187) scale(0.7)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mafdf3a82c3" x="671.842916" y="492.7525" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- $\mathdefault{10^{3}}$ -->
+      <g transform="translate(658.842916 514.89) scale(0.2 -0.2)">
+       <defs>
+        <path id="GentiumPlus-33" d="M 2578 1191 
+Q 2578 841 2429 548 
+Q 2281 256 1989 81 
+Q 1697 -94 1269 -94 
+Q 1022 -94 758 4 
+Q 494 103 213 372 
+L 319 581 
+Q 603 372 798 295 
+Q 994 219 1228 219 
+Q 1609 219 1843 455 
+Q 2078 691 2078 1088 
+Q 2078 1403 1956 1590 
+Q 1834 1778 1650 1862 
+Q 1466 1947 1281 1947 
+Q 1194 1947 1180 1944 
+Q 1166 1941 1069 1925 
+L 1025 2113 
+Q 1409 2219 1595 2362 
+Q 1781 2506 1840 2657 
+Q 1900 2809 1900 2938 
+Q 1900 3081 1840 3228 
+Q 1781 3375 1656 3475 
+Q 1531 3575 1331 3575 
+Q 1081 3575 943 3414 
+Q 806 3253 844 3041 
+Q 738 2988 641 2958 
+Q 544 2928 409 2919 
+L 325 3016 
+Q 325 3191 489 3387 
+Q 653 3584 923 3721 
+Q 1194 3859 1509 3859 
+Q 1822 3859 2017 3731 
+Q 2213 3603 2306 3404 
+Q 2400 3206 2400 2994 
+Q 2400 2759 2220 2539 
+Q 2041 2319 1734 2181 
+Q 1972 2153 2162 2014 
+Q 2353 1875 2465 1659 
+Q 2578 1444 2578 1191 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#GentiumPlus-31" transform="translate(0 0.007812)"/>
+       <use xlink:href="#GentiumPlus-30" transform="translate(46.923828 0.007812)"/>
+       <use xlink:href="#GentiumPlus-33" transform="translate(94.642266 31.792187) scale(0.7)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <defs>
+       <path id="m99cc4d6424" d="M 0 0 
+L 0 2 
+" style="stroke: #000000; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#m99cc4d6424" x="72.506511" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="83.523235" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="93.240675" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="159.119858" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="192.571897" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="216.306496" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="234.716481" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="249.758535" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="262.47641" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="273.493134" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="283.210573" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="349.089757" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="382.541795" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="406.276395" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="424.68638" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="439.728433" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="452.446308" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="463.463032" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="473.180472" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="539.059655" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="572.511694" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_26">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="596.246293" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_27">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="614.656278" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_28">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="629.698332" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_29">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="642.416206" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_30">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="653.432931" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_31">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="663.15037" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_32">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="729.029554" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_33">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="762.481592" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_34">
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="786.216191" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_35">
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#m99cc4d6424" x="804.626177" y="492.7525" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_5">
+     <!-- Genus (log scale) -->
+     <g transform="translate(340.670897 547.015) scale(0.3 -0.3)">
+      <defs>
+       <path id="GentiumPlus-47" d="M 3578 1772 
+Q 3400 1731 3325 1659 
+Q 3250 1588 3250 1516 
+L 3250 481 
+Q 3250 481 3179 447 
+Q 3109 413 3015 372 
+Q 2922 331 2851 307 
+Q 2781 284 2781 306 
+L 2781 1516 
+Q 2781 1584 2650 1648 
+Q 2519 1713 2138 1772 
+L 2138 1906 
+L 3578 1906 
+L 3578 1772 
+z
+M 3256 3713 
+Q 3288 3691 3233 3622 
+Q 3178 3553 3095 3475 
+Q 3013 3397 2956 3347 
+L 2853 3366 
+Q 2647 3563 2411 3625 
+Q 2175 3688 1869 3688 
+Q 1753 3688 1559 3603 
+Q 1366 3519 1169 3326 
+Q 972 3134 837 2806 
+Q 703 2478 703 1991 
+Q 703 1413 898 1033 
+Q 1094 653 1397 467 
+Q 1700 281 2016 281 
+Q 2331 281 2578 368 
+Q 2825 456 2988 609 
+Q 3028 588 3129 547 
+Q 3231 506 3250 481 
+Q 2941 228 2716 106 
+Q 2491 -16 2306 -55 
+Q 2122 -94 1931 -94 
+Q 1619 -94 1314 23 
+Q 1009 141 761 380 
+Q 513 619 366 978 
+Q 219 1338 219 1819 
+Q 219 2513 501 3008 
+Q 784 3503 1257 3767 
+Q 1731 4031 2303 4031 
+Q 2509 4031 2782 3948 
+Q 3056 3866 3256 3713 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-65" d="M 2706 1741 
+Q 2650 1678 2556 1625 
+Q 2463 1572 2363 1531 
+L 569 1531 
+L 575 1813 
+L 2075 1813 
+Q 2147 1813 2170 1836 
+Q 2194 1859 2194 1925 
+Q 2194 2009 2169 2134 
+Q 2144 2259 2076 2382 
+Q 2009 2506 1881 2589 
+Q 1753 2672 1550 2672 
+Q 1300 2672 1112 2525 
+Q 925 2378 822 2126 
+Q 719 1875 719 1553 
+Q 719 1225 830 942 
+Q 941 659 1148 486 
+Q 1356 313 1644 313 
+Q 1775 313 1898 339 
+Q 2022 366 2181 456 
+Q 2341 547 2572 738 
+Q 2613 716 2644 675 
+Q 2675 634 2688 609 
+Q 2409 306 2212 154 
+Q 2016 3 1842 -45 
+Q 1669 -94 1453 -94 
+Q 1134 -94 859 86 
+Q 584 266 417 591 
+Q 250 916 250 1356 
+Q 250 1778 433 2154 
+Q 616 2531 941 2753 
+Q 1078 2850 1275 2925 
+Q 1472 3000 1638 3000 
+Q 1944 3000 2150 2879 
+Q 2356 2759 2478 2568 
+Q 2600 2378 2653 2159 
+Q 2706 1941 2706 1741 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-6e" d="M 2094 0 
+L 2094 134 
+Q 2531 247 2531 325 
+L 2531 1978 
+Q 2531 2359 2442 2476 
+Q 2353 2594 2131 2594 
+Q 1941 2594 1661 2397 
+Q 1381 2200 1078 1716 
+L 1078 325 
+Q 1078 278 1197 228 
+Q 1316 178 1516 134 
+L 1516 0 
+L 172 0 
+L 172 134 
+Q 378 188 493 231 
+Q 609 275 609 325 
+L 609 2222 
+Q 609 2384 587 2462 
+Q 566 2541 475 2572 
+Q 384 2603 172 2625 
+L 172 2750 
+Q 384 2784 567 2848 
+Q 750 2913 922 3000 
+L 1031 2891 
+L 1066 2113 
+Q 1250 2391 1476 2589 
+Q 1703 2788 1925 2894 
+Q 2147 3000 2309 3000 
+Q 2578 3000 2789 2834 
+Q 3000 2669 3000 2316 
+L 3000 325 
+Q 3000 284 3095 240 
+Q 3191 197 3438 134 
+L 3438 0 
+L 2094 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-75" d="M 3341 256 
+Q 3113 106 2923 6 
+Q 2734 -94 2656 -94 
+Q 2547 -94 2478 51 
+Q 2409 197 2391 519 
+Q 2131 259 1929 128 
+Q 1728 -3 1568 -48 
+Q 1409 -94 1275 -94 
+Q 1081 -94 911 -15 
+Q 741 63 636 272 
+Q 531 481 531 872 
+L 531 2222 
+Q 531 2422 511 2508 
+Q 491 2594 406 2622 
+Q 322 2650 128 2669 
+L 128 2794 
+Q 353 2822 529 2870 
+Q 706 2919 913 3000 
+L 1000 2878 
+L 1000 1044 
+Q 1000 606 1126 443 
+Q 1253 281 1478 281 
+Q 1681 281 1898 403 
+Q 2116 525 2391 819 
+L 2391 2222 
+Q 2391 2409 2361 2501 
+Q 2331 2594 2239 2626 
+Q 2147 2659 1953 2669 
+L 1953 2794 
+Q 2178 2822 2386 2881 
+Q 2594 2941 2766 3000 
+L 2859 2878 
+L 2859 794 
+Q 2859 603 2875 479 
+Q 2891 356 2931 325 
+Q 2966 300 3058 314 
+Q 3150 328 3309 397 
+L 3341 256 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-73" d="M 2188 884 
+Q 2188 553 2058 356 
+Q 1928 159 1742 62 
+Q 1556 -34 1379 -64 
+Q 1203 -94 1113 -94 
+Q 966 -94 753 -37 
+Q 541 19 331 134 
+Q 313 147 305 236 
+Q 297 325 300 450 
+Q 303 575 317 695 
+Q 331 816 353 884 
+L 488 850 
+Q 503 588 725 403 
+Q 947 219 1269 219 
+Q 1494 219 1637 355 
+Q 1781 491 1781 709 
+Q 1781 853 1703 953 
+Q 1625 1053 1454 1156 
+Q 1284 1259 1006 1403 
+Q 834 1494 678 1600 
+Q 522 1706 423 1848 
+Q 325 1991 325 2188 
+Q 325 2447 459 2628 
+Q 594 2809 806 2904 
+Q 1019 3000 1253 3000 
+Q 1384 3000 1543 2970 
+Q 1703 2941 1848 2887 
+Q 1994 2834 2075 2759 
+Q 2100 2738 2070 2636 
+Q 2041 2534 1994 2429 
+Q 1947 2325 1919 2291 
+L 1797 2316 
+Q 1650 2538 1487 2628 
+Q 1325 2719 1172 2719 
+Q 966 2719 848 2595 
+Q 731 2472 731 2344 
+Q 731 2172 900 2051 
+Q 1069 1931 1422 1747 
+Q 1603 1653 1779 1542 
+Q 1956 1431 2072 1275 
+Q 2188 1119 2188 884 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-20" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-28" d="M 1806 -984 
+Q 1334 -769 1017 -330 
+Q 700 109 539 696 
+Q 378 1284 378 1947 
+Q 378 2631 556 3243 
+Q 734 3856 1056 4317 
+Q 1378 4778 1806 5000 
+L 1906 4859 
+Q 1634 4634 1407 4225 
+Q 1181 3816 1045 3259 
+Q 909 2703 909 2034 
+Q 909 1428 1026 867 
+Q 1144 306 1366 -137 
+Q 1588 -581 1906 -844 
+L 1806 -984 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-6c" d="M 188 0 
+L 188 134 
+Q 456 181 556 228 
+Q 656 275 656 325 
+L 656 4050 
+Q 656 4234 620 4314 
+Q 584 4394 489 4422 
+Q 394 4450 219 4469 
+L 219 4594 
+Q 444 4638 633 4691 
+Q 822 4744 1013 4844 
+L 1125 4738 
+L 1125 325 
+Q 1125 278 1231 228 
+Q 1338 178 1594 134 
+L 1594 0 
+L 188 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-6f" d="M 2969 1516 
+Q 2969 1203 2855 915 
+Q 2741 628 2544 400 
+Q 2347 172 2090 39 
+Q 1834 -94 1550 -94 
+Q 1156 -94 864 100 
+Q 572 294 411 628 
+Q 250 963 250 1388 
+Q 250 1697 361 1986 
+Q 472 2275 667 2504 
+Q 863 2734 1120 2867 
+Q 1378 3000 1672 3000 
+Q 2066 3000 2356 2806 
+Q 2647 2613 2808 2278 
+Q 2969 1944 2969 1516 
+z
+M 2484 1422 
+Q 2484 1753 2348 2033 
+Q 2213 2313 2005 2484 
+Q 1797 2656 1581 2656 
+Q 1266 2656 1080 2500 
+Q 894 2344 814 2078 
+Q 734 1813 734 1478 
+Q 734 1150 879 870 
+Q 1025 591 1236 420 
+Q 1447 250 1638 250 
+Q 2081 250 2282 569 
+Q 2484 888 2484 1422 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-67" d="M 3031 -375 
+Q 3031 -631 2890 -848 
+Q 2750 -1066 2520 -1225 
+Q 2291 -1384 2012 -1473 
+Q 1734 -1563 1459 -1563 
+Q 1241 -1563 1003 -1516 
+Q 766 -1469 559 -1367 
+Q 353 -1266 223 -1105 
+Q 94 -944 94 -716 
+Q 94 -600 161 -470 
+Q 228 -341 433 -180 
+Q 638 -19 1044 191 
+Q 1044 191 1101 184 
+Q 1159 178 1221 158 
+Q 1284 138 1294 94 
+Q 959 -81 803 -209 
+Q 647 -338 605 -430 
+Q 563 -522 563 -594 
+Q 563 -769 711 -914 
+Q 859 -1059 1103 -1146 
+Q 1347 -1234 1631 -1234 
+Q 2053 -1234 2308 -1023 
+Q 2563 -813 2563 -491 
+Q 2563 -375 2484 -283 
+Q 2406 -191 2201 -122 
+Q 1997 -53 1619 -13 
+Q 1209 34 981 111 
+Q 753 188 661 283 
+Q 569 378 569 478 
+Q 569 534 669 670 
+Q 769 806 1131 1041 
+L 1575 1094 
+Q 1294 906 1187 772 
+Q 1081 638 1081 613 
+Q 1081 563 1145 516 
+Q 1209 469 1382 426 
+Q 1556 384 1881 344 
+Q 2338 294 2586 180 
+Q 2834 66 2932 -81 
+Q 3031 -228 3031 -375 
+z
+M 3091 2906 
+Q 3053 2819 3018 2745 
+Q 2984 2672 2913 2594 
+Q 2744 2566 2570 2550 
+Q 2397 2534 2131 2544 
+L 1984 2784 
+Q 2397 2809 2640 2878 
+Q 2884 2947 3028 3000 
+L 3091 2906 
+z
+M 2594 2003 
+Q 2594 1684 2411 1440 
+Q 2228 1197 1945 1059 
+Q 1663 922 1356 922 
+Q 906 922 609 1184 
+Q 313 1447 313 1881 
+Q 313 2188 488 2442 
+Q 663 2697 938 2848 
+Q 1213 3000 1516 3000 
+Q 1822 3000 2065 2864 
+Q 2309 2728 2451 2501 
+Q 2594 2275 2594 2003 
+z
+M 2156 1875 
+Q 2156 2209 1939 2448 
+Q 1722 2688 1300 2688 
+Q 1197 2688 1069 2617 
+Q 941 2547 845 2406 
+Q 750 2266 750 2059 
+Q 750 1728 958 1489 
+Q 1166 1250 1606 1250 
+Q 1728 1250 1856 1320 
+Q 1984 1391 2070 1530 
+Q 2156 1669 2156 1875 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-63" d="M 2625 594 
+Q 2353 275 2164 129 
+Q 1975 -16 1812 -55 
+Q 1650 -94 1453 -94 
+Q 1150 -94 873 82 
+Q 597 259 423 592 
+Q 250 925 250 1388 
+Q 250 1838 461 2203 
+Q 672 2569 1034 2784 
+Q 1397 3000 1844 3000 
+Q 2050 3000 2261 2931 
+Q 2472 2863 2578 2753 
+Q 2588 2703 2558 2603 
+Q 2528 2503 2484 2401 
+Q 2441 2300 2400 2241 
+L 2284 2272 
+Q 2234 2381 2059 2518 
+Q 1884 2656 1563 2656 
+Q 1344 2656 1151 2526 
+Q 959 2397 839 2136 
+Q 719 1875 719 1484 
+Q 719 1131 855 867 
+Q 991 603 1209 458 
+Q 1428 313 1678 313 
+Q 1797 313 1897 333 
+Q 1997 353 2134 439 
+Q 2272 525 2503 722 
+L 2625 594 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-61" d="M 2894 256 
+Q 2628 75 2454 -9 
+Q 2281 -94 2194 -94 
+Q 2084 -94 2015 70 
+Q 1947 234 1947 513 
+L 1947 2194 
+Q 1947 2406 1837 2551 
+Q 1728 2697 1422 2688 
+Q 1222 2684 1058 2567 
+Q 894 2450 913 2263 
+Q 919 2225 806 2178 
+Q 694 2131 564 2101 
+Q 434 2072 381 2084 
+L 338 2206 
+Q 434 2416 656 2595 
+Q 878 2775 1158 2887 
+Q 1438 3000 1700 3000 
+Q 2044 3000 2230 2820 
+Q 2416 2641 2416 2319 
+L 2416 556 
+Q 2416 313 2541 313 
+Q 2584 313 2653 330 
+Q 2722 347 2847 397 
+L 2894 256 
+z
+M 1978 1525 
+Q 1619 1469 1419 1412 
+Q 1219 1356 1116 1295 
+Q 1013 1234 944 1163 
+Q 866 1078 814 970 
+Q 763 863 763 716 
+Q 763 550 823 462 
+Q 884 375 965 344 
+Q 1047 313 1100 313 
+Q 1294 313 1512 416 
+Q 1731 519 1978 738 
+L 2003 506 
+Q 1709 191 1418 48 
+Q 1128 -94 916 -94 
+Q 766 -94 612 -26 
+Q 459 41 354 191 
+Q 250 341 250 581 
+Q 250 822 333 980 
+Q 416 1138 531 1253 
+Q 634 1356 781 1443 
+Q 928 1531 1208 1609 
+Q 1488 1688 1978 1759 
+L 1978 1525 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-29" d="M 1656 2075 
+Q 1656 1388 1476 773 
+Q 1297 159 975 -300 
+Q 653 -759 225 -984 
+L 128 -844 
+Q 397 -616 623 -206 
+Q 850 203 987 759 
+Q 1125 1316 1125 1984 
+Q 1125 2591 1009 3152 
+Q 894 3713 672 4158 
+Q 450 4603 128 4859 
+L 225 5000 
+Q 697 4788 1014 4348 
+Q 1331 3909 1493 3323 
+Q 1656 2738 1656 2075 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#GentiumPlus-47"/>
+      <use xlink:href="#GentiumPlus-65" transform="translate(58.300781 0)"/>
+      <use xlink:href="#GentiumPlus-6e" transform="translate(104.492188 0)"/>
+      <use xlink:href="#GentiumPlus-75" transform="translate(159.667969 0)"/>
+      <use xlink:href="#GentiumPlus-73" transform="translate(212.646484 0)"/>
+      <use xlink:href="#GentiumPlus-20" transform="translate(251.269531 0)"/>
+      <use xlink:href="#GentiumPlus-28" transform="translate(273.291016 0)"/>
+      <use xlink:href="#GentiumPlus-6c" transform="translate(304.980469 0)"/>
+      <use xlink:href="#GentiumPlus-6f" transform="translate(332.080078 0)"/>
+      <use xlink:href="#GentiumPlus-67" transform="translate(382.373047 0)"/>
+      <use xlink:href="#GentiumPlus-20" transform="translate(431.152344 0)"/>
+      <use xlink:href="#GentiumPlus-73" transform="translate(453.173828 0)"/>
+      <use xlink:href="#GentiumPlus-63" transform="translate(491.796875 0)"/>
+      <use xlink:href="#GentiumPlus-61" transform="translate(535.498047 0)"/>
+      <use xlink:href="#GentiumPlus-6c" transform="translate(581.396484 0)"/>
+      <use xlink:href="#GentiumPlus-65" transform="translate(608.496094 0)"/>
+      <use xlink:href="#GentiumPlus-29" transform="translate(654.6875 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_36">
+      <path d="M 67.764063 470.354659 
+L 819.485544 470.354659 
+" clip-path="url(#p1d00de2589)" style="fill: none; stroke-dasharray: 6.29,2.72; stroke-dashoffset: 0; stroke: #000000; stroke-opacity: 0.5; stroke-width: 1.7"/>
+     </g>
+     <g id="line2d_37">
+      <defs>
+       <path id="mc5ba641e84" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc5ba641e84" x="67.764063" y="470.354659" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- $\mathdefault{10^{0}}$ -->
+      <g transform="translate(34.764063 477.923409) scale(0.2 -0.2)">
+       <use xlink:href="#GentiumPlus-31" transform="translate(0 0.007812)"/>
+       <use xlink:href="#GentiumPlus-30" transform="translate(46.923828 0.007812)"/>
+       <use xlink:href="#GentiumPlus-30" transform="translate(94.642266 31.792187) scale(0.7)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_38">
+      <path d="M 67.764063 328.22178 
+L 819.485544 328.22178 
+" clip-path="url(#p1d00de2589)" style="fill: none; stroke-dasharray: 6.29,2.72; stroke-dashoffset: 0; stroke: #000000; stroke-opacity: 0.5; stroke-width: 1.7"/>
+     </g>
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#mc5ba641e84" x="67.764063" y="328.22178" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- $\mathdefault{10^{1}}$ -->
+      <g transform="translate(34.764063 335.79053) scale(0.2 -0.2)">
+       <use xlink:href="#GentiumPlus-31" transform="translate(0 0.657813)"/>
+       <use xlink:href="#GentiumPlus-30" transform="translate(46.923828 0.657813)"/>
+       <use xlink:href="#GentiumPlus-31" transform="translate(94.642266 32.442188) scale(0.7)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_40">
+      <path d="M 67.764063 186.0889 
+L 819.485544 186.0889 
+" clip-path="url(#p1d00de2589)" style="fill: none; stroke-dasharray: 6.29,2.72; stroke-dashoffset: 0; stroke: #000000; stroke-opacity: 0.5; stroke-width: 1.7"/>
+     </g>
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#mc5ba641e84" x="67.764063" y="186.0889" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- $\mathdefault{10^{2}}$ -->
+      <g transform="translate(34.764063 193.65765) scale(0.2 -0.2)">
+       <use xlink:href="#GentiumPlus-31" transform="translate(0 0.007812)"/>
+       <use xlink:href="#GentiumPlus-30" transform="translate(46.923828 0.007812)"/>
+       <use xlink:href="#GentiumPlus-32" transform="translate(94.642266 31.792187) scale(0.7)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_42">
+      <path d="M 67.764063 43.95602 
+L 819.485544 43.95602 
+" clip-path="url(#p1d00de2589)" style="fill: none; stroke-dasharray: 6.29,2.72; stroke-dashoffset: 0; stroke: #000000; stroke-opacity: 0.5; stroke-width: 1.7"/>
+     </g>
+     <g id="line2d_43">
+      <g>
+       <use xlink:href="#mc5ba641e84" x="67.764063" y="43.95602" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- $\mathdefault{10^{3}}$ -->
+      <g transform="translate(34.764063 51.52477) scale(0.2 -0.2)">
+       <use xlink:href="#GentiumPlus-31" transform="translate(0 0.007812)"/>
+       <use xlink:href="#GentiumPlus-30" transform="translate(46.923828 0.007812)"/>
+       <use xlink:href="#GentiumPlus-33" transform="translate(94.642266 31.792187) scale(0.7)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_44">
+      <defs>
+       <path id="mc27324be54" d="M 0 0 
+L -2 0 
+" style="stroke: #000000; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="492.371321" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_45">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="484.128758" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_46">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="476.858303" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_47">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="427.568399" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_48">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="402.540041" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_49">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="384.782139" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_50">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="371.00804" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_51">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="359.753781" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_52">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="350.238441" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_53">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="341.995879" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_54">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="334.725423" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_55">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="285.435519" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_56">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="260.407162" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_57">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="242.649259" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_58">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="228.87516" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_59">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="217.620902" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_60">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="208.105562" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_61">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="199.862999" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_62">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="192.592544" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_63">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="143.30264" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_64">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="118.274282" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_65">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="100.51638" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_66">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="86.74228" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_28">
+     <g id="line2d_67">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="75.488022" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_29">
+     <g id="line2d_68">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="65.972682" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_69">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="57.73012" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_31">
+     <g id="line2d_70">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="50.459664" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_32">
+     <g id="line2d_71">
+      <g>
+       <use xlink:href="#mc27324be54" x="67.764063" y="1.16976" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_10">
+     <!-- Number of samples (log scale) -->
+     <g transform="translate(23.4375 430.133281) rotate(-90) scale(0.3 -0.3)">
+      <defs>
+       <path id="GentiumPlus-4e" d="M 4000 3803 
+Q 3775 3772 3661 3712 
+Q 3547 3653 3547 3609 
+L 3547 100 
+L 3172 222 
+L 3172 3609 
+Q 3172 3647 3070 3708 
+Q 2969 3769 2719 3803 
+L 2719 3938 
+L 4000 3938 
+L 4000 3803 
+z
+M 3547 -94 
+Q 3394 -75 3303 -29 
+Q 3213 16 3175 66 
+L 744 3438 
+Q 616 3619 469 3698 
+Q 322 3778 156 3803 
+L 156 3938 
+L 819 3938 
+Q 909 3938 956 3897 
+Q 1003 3856 1119 3694 
+L 3178 853 
+Q 3222 794 3311 678 
+Q 3400 563 3473 469 
+Q 3547 375 3547 375 
+L 3547 -94 
+z
+M 156 0 
+L 156 134 
+Q 388 163 498 223 
+Q 609 284 609 325 
+L 609 3738 
+L 984 3816 
+L 984 325 
+Q 984 288 1090 228 
+Q 1197 169 1438 134 
+L 1438 0 
+L 156 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-6d" d="M 3706 0 
+L 3706 134 
+Q 4141 247 4141 325 
+L 4141 1978 
+Q 4141 2363 4058 2494 
+Q 3975 2625 3788 2625 
+Q 3581 2625 3331 2403 
+Q 3081 2181 2844 1791 
+L 2844 325 
+Q 2844 284 2941 240 
+Q 3038 197 3284 134 
+L 3284 0 
+L 1941 0 
+L 1941 134 
+Q 2375 247 2375 325 
+L 2375 1978 
+Q 2375 2363 2295 2494 
+Q 2216 2625 2022 2625 
+Q 1813 2625 1578 2404 
+Q 1344 2184 1078 1791 
+L 1078 325 
+Q 1078 278 1197 228 
+Q 1316 178 1516 134 
+L 1516 0 
+L 172 0 
+L 172 134 
+Q 378 188 493 231 
+Q 609 275 609 325 
+L 609 2222 
+Q 609 2388 584 2464 
+Q 559 2541 467 2572 
+Q 375 2603 172 2625 
+L 172 2750 
+Q 409 2788 581 2853 
+Q 753 2919 922 3000 
+L 1031 2891 
+L 1066 2175 
+Q 1344 2591 1634 2795 
+Q 1925 3000 2150 3000 
+Q 2447 3000 2645 2842 
+Q 2844 2684 2844 2266 
+L 2844 2200 
+Q 3106 2591 3397 2795 
+Q 3688 3000 3916 3000 
+Q 4213 3000 4411 2834 
+Q 4609 2669 4609 2316 
+L 4609 325 
+Q 4609 284 4706 240 
+Q 4803 197 5050 134 
+L 5050 0 
+L 3706 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-62" d="M 2969 1538 
+Q 2969 1266 2864 980 
+Q 2759 694 2562 450 
+Q 2366 206 2089 56 
+Q 1813 -94 1466 -94 
+Q 1347 -94 1061 9 
+Q 775 113 438 300 
+L 438 4050 
+Q 438 4234 406 4315 
+Q 375 4397 289 4423 
+Q 203 4450 31 4469 
+L 31 4594 
+Q 234 4641 423 4694 
+Q 613 4747 791 4844 
+Q 853 4794 906 4738 
+L 906 2272 
+Q 1219 2647 1516 2823 
+Q 1813 3000 1991 3000 
+Q 2419 3000 2694 2611 
+Q 2969 2222 2969 1538 
+z
+M 2547 1275 
+Q 2547 1691 2437 1981 
+Q 2328 2272 2151 2425 
+Q 1975 2578 1772 2578 
+Q 1663 2578 1416 2437 
+Q 1169 2297 906 1906 
+L 906 634 
+Q 1156 447 1409 380 
+Q 1663 313 1772 313 
+Q 2025 313 2198 453 
+Q 2372 594 2459 814 
+Q 2547 1034 2547 1275 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-72" d="M 2406 2884 
+Q 2447 2863 2431 2717 
+Q 2416 2572 2370 2398 
+Q 2325 2225 2272 2113 
+L 2138 2113 
+Q 2100 2366 2004 2464 
+Q 1909 2563 1791 2563 
+Q 1653 2563 1440 2322 
+Q 1228 2081 1078 1550 
+L 1078 325 
+Q 1078 278 1195 228 
+Q 1313 178 1606 134 
+L 1606 0 
+L 172 0 
+L 172 134 
+Q 378 181 493 228 
+Q 609 275 609 325 
+L 609 2144 
+Q 609 2350 587 2431 
+Q 566 2513 538 2541 
+Q 497 2584 422 2600 
+Q 347 2616 172 2625 
+L 172 2750 
+Q 375 2800 572 2856 
+Q 769 2913 922 3000 
+L 1031 2891 
+L 1072 2181 
+Q 1241 2528 1466 2764 
+Q 1691 3000 1959 3000 
+Q 2059 3000 2176 2975 
+Q 2294 2950 2406 2884 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-66" d="M 2553 4544 
+Q 2553 4509 2479 4437 
+Q 2406 4366 2312 4297 
+Q 2219 4228 2156 4197 
+Q 2009 4328 1857 4390 
+Q 1706 4453 1625 4453 
+Q 1519 4453 1394 4348 
+Q 1269 4244 1181 3967 
+Q 1094 3691 1094 3175 
+L 1094 2906 
+L 1900 2906 
+L 1991 2816 
+Q 1931 2728 1836 2628 
+Q 1741 2528 1684 2500 
+Q 1613 2538 1478 2573 
+Q 1344 2609 1094 2609 
+L 1094 319 
+Q 1094 281 1237 242 
+Q 1381 203 1747 134 
+L 1747 0 
+L 188 0 
+L 188 134 
+Q 400 172 512 226 
+Q 625 281 625 319 
+L 625 2609 
+L 206 2609 
+L 141 2697 
+L 384 2906 
+L 625 2906 
+L 625 3003 
+Q 625 3497 711 3787 
+Q 797 4078 939 4250 
+Q 1081 4422 1247 4556 
+Q 1416 4694 1631 4769 
+Q 1847 4844 1966 4844 
+Q 2094 4844 2230 4784 
+Q 2366 4725 2459 4653 
+Q 2553 4581 2553 4544 
+z
+" transform="scale(0.015625)"/>
+       <path id="GentiumPlus-70" d="M 1947 -94 
+Q 1766 -94 1533 11 
+Q 1300 116 1078 306 
+L 1078 -1172 
+Q 1078 -1222 1195 -1272 
+Q 1313 -1322 1606 -1366 
+L 1606 -1500 
+L 172 -1500 
+L 172 -1366 
+Q 378 -1316 493 -1270 
+Q 609 -1225 609 -1172 
+L 609 2222 
+Q 609 2378 582 2462 
+Q 556 2547 464 2581 
+Q 372 2616 172 2625 
+L 172 2750 
+Q 388 2797 564 2855 
+Q 741 2913 922 3000 
+L 1031 2891 
+L 1059 2272 
+Q 1372 2647 1675 2823 
+Q 1978 3000 2156 3000 
+Q 2584 3000 2862 2611 
+Q 3141 2222 3141 1538 
+Q 3141 1266 3041 980 
+Q 2941 694 2772 450 
+Q 2603 206 2389 56 
+Q 2175 -94 1947 -94 
+z
+M 1947 2609 
+Q 1834 2609 1593 2459 
+Q 1353 2309 1078 1906 
+L 1078 666 
+Q 1356 456 1564 384 
+Q 1772 313 1941 313 
+Q 2275 313 2497 572 
+Q 2719 831 2719 1331 
+Q 2719 1697 2609 1986 
+Q 2500 2275 2325 2442 
+Q 2150 2609 1947 2609 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#GentiumPlus-4e"/>
+      <use xlink:href="#GentiumPlus-75" transform="translate(64.892578 0)"/>
+      <use xlink:href="#GentiumPlus-6d" transform="translate(117.871094 0)"/>
+      <use xlink:href="#GentiumPlus-62" transform="translate(198.193359 0)"/>
+      <use xlink:href="#GentiumPlus-65" transform="translate(248.974609 0)"/>
+      <use xlink:href="#GentiumPlus-72" transform="translate(295.166016 0)"/>
+      <use xlink:href="#GentiumPlus-20" transform="translate(334.765625 0)"/>
+      <use xlink:href="#GentiumPlus-6f" transform="translate(356.787109 0)"/>
+      <use xlink:href="#GentiumPlus-66" transform="translate(407.080078 0)"/>
+      <use xlink:href="#GentiumPlus-20" transform="translate(438.183594 0)"/>
+      <use xlink:href="#GentiumPlus-73" transform="translate(460.205078 0)"/>
+      <use xlink:href="#GentiumPlus-61" transform="translate(498.828125 0)"/>
+      <use xlink:href="#GentiumPlus-6d" transform="translate(544.726562 0)"/>
+      <use xlink:href="#GentiumPlus-70" transform="translate(625.048828 0)"/>
+      <use xlink:href="#GentiumPlus-6c" transform="translate(678.027344 0)"/>
+      <use xlink:href="#GentiumPlus-65" transform="translate(705.126953 0)"/>
+      <use xlink:href="#GentiumPlus-73" transform="translate(751.318359 0)"/>
+      <use xlink:href="#GentiumPlus-20" transform="translate(789.941406 0)"/>
+      <use xlink:href="#GentiumPlus-28" transform="translate(811.962891 0)"/>
+      <use xlink:href="#GentiumPlus-6c" transform="translate(843.652344 0)"/>
+      <use xlink:href="#GentiumPlus-6f" transform="translate(870.751953 0)"/>
+      <use xlink:href="#GentiumPlus-67" transform="translate(921.044922 0)"/>
+      <use xlink:href="#GentiumPlus-20" transform="translate(969.824219 0)"/>
+      <use xlink:href="#GentiumPlus-73" transform="translate(991.845703 0)"/>
+      <use xlink:href="#GentiumPlus-63" transform="translate(1030.46875 0)"/>
+      <use xlink:href="#GentiumPlus-61" transform="translate(1074.169922 0)"/>
+      <use xlink:href="#GentiumPlus-6c" transform="translate(1120.068359 0)"/>
+      <use xlink:href="#GentiumPlus-65" transform="translate(1147.167969 0)"/>
+      <use xlink:href="#GentiumPlus-29" transform="translate(1193.359375 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 101.933221 142603.234235 
+L 121.400082 142603.234235 
+L 121.400082 22.397841 
+L 101.933221 22.397841 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 159.119858 142603.234235 
+L 178.58672 142603.234235 
+L 178.58672 85.157874 
+L 159.119858 85.157874 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 192.571897 142603.234235 
+L 212.038758 142603.234235 
+L 212.038758 73.86352 
+L 192.571897 73.86352 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 234.716481 142603.234235 
+L 254.183343 142603.234235 
+L 254.183343 72.574384 
+L 234.716481 72.574384 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 283.210573 142603.234235 
+L 302.677434 142603.234235 
+L 302.677434 103.845243 
+L 283.210573 103.845243 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 319.663047 142603.234235 
+L 339.129908 142603.234235 
+L 339.129908 150.843746 
+L 319.663047 150.843746 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 356.953121 142603.234235 
+L 376.419982 142603.234235 
+L 376.419982 181.338285 
+L 356.953121 181.338285 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 395.25967 142603.234235 
+L 414.726531 142603.234235 
+L 414.726531 191.910465 
+L 395.25967 191.910465 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 432.549744 142603.234235 
+L 452.016605 142603.234235 
+L 452.016605 235.378804 
+L 432.549744 235.378804 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 470.383496 142603.234235 
+L 489.850357 142603.234235 
+L 489.850357 256.423358 
+L 470.383496 256.423358 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 507.24139 142603.234235 
+L 526.708252 142603.234235 
+L 526.708252 291.939163 
+L 507.24139 291.939163 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 544.255258 142603.234235 
+L 563.722119 142603.234235 
+L 563.722119 316.967521 
+L 544.255258 316.967521 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 581.369081 142603.234235 
+L 600.835942 142603.234235 
+L 600.835942 334.725423 
+L 581.369081 334.725423 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 618.20881 142603.234235 
+L 637.675671 142603.234235 
+L 637.675671 359.753781 
+L 618.20881 359.753781 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 655.167749 142603.234235 
+L 674.63461 142603.234235 
+L 674.63461 142603.234235 
+L 655.167749 142603.234235 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 692.080572 142603.234235 
+L 711.547433 142603.234235 
+L 711.547433 470.354659 
+L 692.080572 470.354659 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 728.94701 142603.234235 
+L 748.413871 142603.234235 
+L 748.413871 142603.234235 
+L 728.94701 142603.234235 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 765.849524 142603.234235 
+L 785.316386 142603.234235 
+L 785.316386 427.568399 
+L 765.849524 427.568399 
+z
+" clip-path="url(#p1d00de2589)" style="fill: #bfbfbf"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 67.764063 492.7525 
+L 67.764063 0 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 67.764063 492.7525 
+L 819.485544 492.7525 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_11">
+    <g id="patch_23">
+     <path d="M 541.348596 42.382394 
+L 811.715783 42.382394 
+Q 819.215783 42.382394 819.215783 34.882394 
+L 819.215783 9.85505 
+Q 819.215783 2.35505 811.715783 2.35505 
+L 541.348596 2.35505 
+Q 533.848596 2.35505 533.848596 9.85505 
+L 533.848596 34.882394 
+Q 533.848596 42.382394 541.348596 42.382394 
+z
+" style="fill: #f5deb3; opacity: 0.8; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <!-- 2584 samples with genus 0 -->
+    <g transform="translate(541.348596 28.776925) scale(0.25 -0.25)">
+     <defs>
+      <path id="GentiumPlus-35" d="M 2613 1281 
+Q 2613 919 2467 605 
+Q 2322 291 2045 98 
+Q 1769 -94 1375 -94 
+Q 1088 -94 800 14 
+Q 513 122 244 372 
+L 353 581 
+Q 684 353 906 286 
+Q 1128 219 1306 219 
+Q 1578 219 1756 351 
+Q 1934 484 2023 696 
+Q 2113 909 2113 1147 
+Q 2113 1575 1905 1834 
+Q 1697 2094 1259 2094 
+Q 1125 2094 933 2031 
+Q 741 1969 575 1844 
+L 428 1947 
+Q 456 2116 497 2358 
+Q 538 2600 577 2861 
+Q 616 3122 645 3361 
+Q 675 3600 684 3766 
+L 2047 3766 
+Q 2225 3766 2325 3794 
+Q 2425 3822 2425 3822 
+L 2516 3731 
+Q 2447 3631 2344 3522 
+Q 2241 3413 2169 3359 
+L 959 3359 
+Q 953 3238 928 3036 
+Q 903 2834 873 2642 
+Q 844 2450 825 2356 
+Q 950 2394 1119 2416 
+Q 1288 2438 1447 2438 
+Q 1825 2438 2084 2277 
+Q 2344 2116 2478 1852 
+Q 2613 1588 2613 1281 
+z
+" transform="scale(0.015625)"/>
+      <path id="GentiumPlus-38" d="M 2709 1100 
+Q 2709 778 2532 506 
+Q 2356 234 2061 70 
+Q 1766 -94 1409 -94 
+Q 1053 -94 804 45 
+Q 556 184 425 409 
+Q 294 634 294 891 
+Q 294 1241 530 1533 
+Q 766 1825 1153 2034 
+L 1375 1919 
+Q 1069 1700 931 1486 
+Q 794 1272 794 984 
+Q 794 659 1000 439 
+Q 1206 219 1563 219 
+Q 1794 219 1936 330 
+Q 2078 441 2143 612 
+Q 2209 784 2209 966 
+Q 2209 1247 2082 1423 
+Q 1956 1600 1756 1712 
+Q 1556 1825 1331 1919 
+Q 1106 2013 906 2123 
+Q 706 2234 579 2407 
+Q 453 2581 453 2859 
+Q 453 3150 601 3375 
+Q 750 3600 1003 3729 
+Q 1256 3859 1569 3859 
+Q 2038 3859 2295 3625 
+Q 2553 3391 2553 3028 
+Q 2553 2744 2340 2519 
+Q 2128 2294 1813 2081 
+L 1594 2216 
+Q 1863 2391 1973 2572 
+Q 2084 2753 2084 2931 
+Q 2084 3256 1900 3411 
+Q 1716 3566 1409 3566 
+Q 1225 3566 1101 3475 
+Q 978 3384 918 3246 
+Q 859 3109 859 2969 
+Q 859 2769 993 2639 
+Q 1128 2509 1337 2411 
+Q 1547 2313 1784 2213 
+Q 2022 2113 2231 1975 
+Q 2441 1838 2575 1628 
+Q 2709 1419 2709 1100 
+z
+" transform="scale(0.015625)"/>
+      <path id="GentiumPlus-34" d="M 2731 1344 
+Q 2666 1244 2611 1195 
+Q 2556 1147 2484 1094 
+L 2266 1094 
+L 2266 325 
+Q 2266 278 2355 236 
+Q 2444 194 2700 134 
+L 2700 0 
+L 1172 0 
+L 1172 134 
+Q 1581 203 1704 254 
+Q 1828 306 1828 359 
+L 1828 1094 
+L 275 1094 
+L 172 1197 
+L 1722 3669 
+Q 1850 3725 1954 3784 
+Q 2059 3844 2150 3891 
+L 2266 3781 
+L 2266 1438 
+L 2650 1438 
+L 2731 1344 
+z
+M 1828 3250 
+L 666 1438 
+L 1828 1438 
+L 1828 3250 
+z
+" transform="scale(0.015625)"/>
+      <path id="GentiumPlus-77" d="M 4453 2772 
+Q 4263 2728 4211 2689 
+Q 4159 2650 4141 2578 
+L 3450 184 
+Q 3425 94 3342 36 
+Q 3259 -22 3167 -51 
+Q 3075 -81 3022 -94 
+L 2228 2175 
+L 2253 2906 
+Q 2253 2906 2333 2906 
+Q 2413 2906 2450 2906 
+L 3263 594 
+L 3803 2578 
+Q 3822 2650 3737 2694 
+Q 3653 2738 3438 2772 
+L 3438 2906 
+L 4453 2906 
+L 4453 2772 
+z
+M 1638 184 
+Q 1591 41 1447 -17 
+Q 1303 -75 1222 -94 
+L 403 2578 
+Q 375 2700 63 2772 
+L 63 2906 
+L 1269 2906 
+L 1269 2772 
+Q 1066 2753 980 2722 
+Q 894 2691 880 2655 
+Q 866 2619 878 2578 
+L 1466 594 
+L 2234 2906 
+Q 2278 2906 2342 2906 
+Q 2406 2906 2406 2906 
+L 2472 2578 
+L 1638 184 
+z
+" transform="scale(0.015625)"/>
+      <path id="GentiumPlus-69" d="M 1219 3941 
+Q 1219 3766 1116 3639 
+Q 1013 3513 856 3513 
+Q 594 3513 594 3813 
+Q 594 3991 700 4114 
+Q 806 4238 953 4238 
+Q 1219 4238 1219 3941 
+z
+M 219 0 
+L 219 134 
+Q 656 222 656 325 
+L 656 2094 
+Q 656 2309 637 2415 
+Q 619 2522 528 2564 
+Q 438 2606 219 2625 
+L 219 2750 
+Q 416 2788 637 2855 
+Q 859 2922 1019 3000 
+L 1125 3000 
+L 1125 325 
+Q 1125 288 1229 233 
+Q 1334 178 1563 134 
+L 1563 0 
+L 219 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="GentiumPlus-74" d="M 2113 366 
+Q 1806 138 1523 22 
+Q 1241 -94 1075 -94 
+Q 859 -94 695 81 
+Q 531 256 531 691 
+L 531 2609 
+L 128 2609 
+L 63 2697 
+L 306 2906 
+L 531 2906 
+L 531 3675 
+L 903 4000 
+L 1000 3922 
+L 1000 2906 
+L 2022 2906 
+L 2113 2816 
+Q 2053 2728 1956 2628 
+Q 1859 2528 1797 2500 
+Q 1722 2538 1569 2573 
+Q 1416 2609 1163 2609 
+L 1000 2609 
+L 1000 959 
+Q 1000 584 1075 448 
+Q 1150 313 1338 313 
+Q 1447 313 1612 356 
+Q 1778 400 2022 525 
+L 2113 366 
+z
+" transform="scale(0.015625)"/>
+      <path id="GentiumPlus-68" d="M 2094 0 
+L 2094 134 
+Q 2531 247 2531 325 
+L 2531 1978 
+Q 2531 2359 2434 2476 
+Q 2338 2594 2131 2594 
+Q 1916 2594 1631 2373 
+Q 1347 2153 1078 1716 
+L 1078 325 
+Q 1078 278 1197 228 
+Q 1316 178 1516 134 
+L 1516 0 
+L 172 0 
+L 172 134 
+Q 378 188 493 231 
+Q 609 275 609 325 
+L 609 4056 
+Q 609 4231 584 4309 
+Q 559 4388 467 4417 
+Q 375 4447 172 4469 
+L 172 4594 
+Q 438 4644 611 4698 
+Q 784 4753 963 4844 
+L 1078 4738 
+L 1078 2138 
+Q 1259 2403 1484 2597 
+Q 1709 2791 1928 2895 
+Q 2147 3000 2309 3000 
+Q 2578 3000 2789 2834 
+Q 3000 2669 3000 2316 
+L 3000 325 
+Q 3000 284 3095 240 
+Q 3191 197 3438 134 
+L 3438 0 
+L 2094 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#GentiumPlus-32"/>
+     <use xlink:href="#GentiumPlus-35" transform="translate(46.923828 0)"/>
+     <use xlink:href="#GentiumPlus-38" transform="translate(93.847656 0)"/>
+     <use xlink:href="#GentiumPlus-34" transform="translate(140.771484 0)"/>
+     <use xlink:href="#GentiumPlus-20" transform="translate(187.695312 0)"/>
+     <use xlink:href="#GentiumPlus-73" transform="translate(209.716797 0)"/>
+     <use xlink:href="#GentiumPlus-61" transform="translate(248.339844 0)"/>
+     <use xlink:href="#GentiumPlus-6d" transform="translate(294.238281 0)"/>
+     <use xlink:href="#GentiumPlus-70" transform="translate(374.560547 0)"/>
+     <use xlink:href="#GentiumPlus-6c" transform="translate(427.539062 0)"/>
+     <use xlink:href="#GentiumPlus-65" transform="translate(454.638672 0)"/>
+     <use xlink:href="#GentiumPlus-73" transform="translate(500.830078 0)"/>
+     <use xlink:href="#GentiumPlus-20" transform="translate(539.453125 0)"/>
+     <use xlink:href="#GentiumPlus-77" transform="translate(561.474609 0)"/>
+     <use xlink:href="#GentiumPlus-69" transform="translate(632.080078 0)"/>
+     <use xlink:href="#GentiumPlus-74" transform="translate(659.179688 0)"/>
+     <use xlink:href="#GentiumPlus-68" transform="translate(693.603516 0)"/>
+     <use xlink:href="#GentiumPlus-20" transform="translate(748.779297 0)"/>
+     <use xlink:href="#GentiumPlus-67" transform="translate(770.800781 0)"/>
+     <use xlink:href="#GentiumPlus-65" transform="translate(819.580078 0)"/>
+     <use xlink:href="#GentiumPlus-6e" transform="translate(865.771484 0)"/>
+     <use xlink:href="#GentiumPlus-75" transform="translate(920.947266 0)"/>
+     <use xlink:href="#GentiumPlus-73" transform="translate(973.925781 0)"/>
+     <use xlink:href="#GentiumPlus-20" transform="translate(1012.548828 0)"/>
+     <use xlink:href="#GentiumPlus-30" transform="translate(1034.570312 0)"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1d00de2589">
+   <rect x="67.764063" y="0" width="751.721481" height="492.7525"/>
+  </clipPath>
+ </defs>
+</svg>
